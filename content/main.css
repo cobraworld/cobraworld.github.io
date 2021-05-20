@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+ background-color: black;
+ position: relative;
+ background-repeat:no-repeat;
+ background-size:100% 100%;
+ background-attachment: fixed;
+ background-position: center;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 30px 10px;
+border: solid black 2px;
+padding: 10 px;
+position: center;
+}
+
+.grid-item {
+background-color: silver;
+align-items: center;
+border: solid lightgrey 2px;
+border-radius: 10px;
+padding: 20px;
+position: center;
+}
+
+.grid-item p {
+color: black;
+font-weight: 650;
+font-size: 12px;
+text-align: center;
+}
+
+img {
+text-align: center;
+position: bottom;
+}
+
+h1 {
+text-align: center;
+color: white;
+font-size: 250%;
+}
+
+h2 {
+text-align: center;
+color: white;
+font-size: 150%;
+}
+
+h2 a {
+text-align: center;
+color: white;
+font-size: 150%;
+}
+
+h2 a:hover {
+text-align: center;
+color: grey;
+font-size: 150%;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  left: 10px;
+  background: #444;
+  font-size: 50%;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #757575;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #DDD ;
+}
+.main {
+  margin-top: 65px;
+  margin-left: 140px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}

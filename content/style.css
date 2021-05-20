@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body p {
+    color: LimeGreen;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body a {
+    color: Magenta;
+}
+
+body a:hover {
+    color: DeepPink;
+}
+
+body h1 {
+    text-align: center;
+    color: LimeGreen;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body h2 {
+    text-align: center;
+    color: LimeGreen;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body code {
+    text-align: center;
+    color: Ivory;
+    font-family: "Open Sans", sans-serif;
+}

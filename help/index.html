@@ -1,0 +1,127 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cobraworld.github.io/content/style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">	
+	<title>Commands</title>
+</head>
+
+<body>	
+    <a href="https://www.discord.gg/REaSs8tMCT"><img src="https://discordapp.com/api/guilds/837765987624812645/widget.png"></a>
+    <p>This is the partial help list for Cobra 2.0 Modbot, keep in mind it&#39;s still in development and some command may not be listed yet (I have to manually add the commands)</p>
+    <p>() is optional [] is mandatory, {} denotes subcommand (also mandatory)</p>
+	<p>There are 2 prefixes to prevent compatiblity with otherbots useing the same prefix (as of right now there are no prefix change commands) ">" and "!co" also you can @ mention the bot</p>
+	
+    <br>
+	
+    <p>Backup system: (Restricted To Administrator Perms)</p>
+	
+    <p><code>&gt;&gt;bcreate</code> Makes backup, sends [ID] to user's dm</p>
+    	
+    <p><code>&gt;&gt;bload [id]</code> Load Backup</p>
+    
+    <p><code>&gt;&gt;binfos [id]</code> Get info on backup.</p>
+    <br>
+    <h1>Moderation:</h1>
+    <br>
+    <p><code>&gt;setlogs</code> Sets a channel called &quot;log&quot; for the bot to dump it&#39;s logs to. Restricted to Permissions.Administrator</p>
+    
+    <p><code>&gt;assign {muterole} [@role]</code> Sets a the mute role, Restricted to Permissions.Administrator</p>
+    
+    <p><code>&gt;al [status]</code> Checks to see weather alt lockdown is enabled. Restricted to Permissions.Administrator</p>
+    
+    <p><code>&gt;al [enable] [days]</code> Locks down server so only accounts older than 7 days can join the server. Restricted to Permissions.Administrator</p>
+    
+    <p><code>&gt;al [disable]</code> Disables alt lockdown. Restricted to Permissions.Administrator</p>
+    
+    <p><code>&gt;pc</code> Effectivly wipes a channel by cloning it and remaking it.</p>
+    
+    <p><code>&gt;hackban [@mention] [reason]</code> Bans a user whoisnt in a guild.</p>
+    
+    <p><code>&gt;purge [number] (@mention) (filter) [string]</code> If you use a filter, string is mandatory.</p>
+    
+    <p><code>&gt;kick [@mention ][reason]</code> Kicks member and provides a reason in #log</p>
+    
+    <p><code>&gt;warn [@mention] [reason]</code> Provides a warning for a user in #log</p>
+    
+    <p><code>&gt;ban [@mention] [reason]</code> Bans user and provides reason in #log</p>
+    
+    <p><code>&gt;an [text]</code> Makes annoucements, restricted to @everyone perms to prevent abuse.</p>
+    
+    <p><code>&gt;role [user] [rolename]</code> Assigns role, to prevent abuse any role with Administrator and ManageGuild is not allowed.</p>
+    
+    <p><code>&gt;removerole [user] [rolename]</code> Same thing as above, to prevent abuse any role with Administrator and ManageGuild is not allowed to be removed.</p>
+    
+    <p><code>&gt;mute [@mention] [reason]</code> Mutes User</p>
+    
+    <p><code>&gt;unmute [@mention] [reason]</code> Unmutes User</p>
+    
+    <p><code>&gt;serverinfo</code> Displays serverinfo
+    <br>
+    <h2>Purge filters:</h2>
+    <br>
+    <p><code>-Bots</code> Purges any message sent by a bot.</p>
+    
+    <p><code>-Bot</code> Purges any message sent by a bot.</p>
+    
+    <p><code>-Match [string]</code> Gets messages that matches a sentence.</p>
+    
+    <p><code>-Starts [string]</code> Gets message that starts with a word.</p>
+    
+    <p><code>-Links</code> Self Explanatory</p>
+    
+    <p><code>-Link</code> Self Explanatory</p>
+    
+    <p><code>-Images</code> Self Explanatory</p>
+    
+    <p><code>-Endswith [string]</code> Ending with a string</p>
+    
+    <p><code>-Humans</code> Anyone who isnt a bot</p>
+    <p>
+    <p><code>-Invites</code> Self Explanatory</p>
+    <br>
+    <h1>Fun/Random:</h1>
+    <br>
+    <p><code>&gt;gt [text]</code> Mimics 4chans greentext. (Broken due to the way DISCORD handled css code blocks)</p>
+        
+    <p><code>&gt;vote [Voting Text]</code> Make a vote.</p>
+    
+    <p><code>&gt;i</code> Generates ai inspirational quotes.</p>
+    
+    <p><code>&gt;rslash [subreddit]</code> Restricted to NSFW Channels</p>
+    
+    <p><code>&gt;stock [USA STOCK]</code> Provides info on given stock.</p>
+    
+    <p><code>&gt;profile [USA STOCK]</code> Provides info on given company.</p>
+    
+    <p><code>&gt;kiss [@user]</code> Kiss a person!</p>
+	
+    <p><code>&gt;behead [@user]</code> (Requires NSFW Channel)</p>
+    
+    <p><code>&gt;cat</code> Meow!</p>
+    
+    <p><code>&gt;doggo</code> DOGGOS!</p>
+    
+    <p><code>&gt;fox</code> Displays cute foxes!</p>
+	
+    <p><code>&gt;av (@user)</code> Display&#39;s user avatar.</p>
+    
+    <p><code>&gt;kanye</code> Display&#39;s a kanye quote.</p>
+    
+    <p><code>&gt;pp [@user]</code> Displays PPSize™ of user mentioned. (Requires NSFW Channel)</p>
+
+    <p><code>&gt;botinfo</code>Displays bot info</p>
+
+    <p><code>&gt;whois (@mention)</code> Whois a user.</p>
+
+    <p><code>&gt;up</code> Total Uptime.</p>
+
+    <p><code>&gt;ping</code> Pong!.</p>
+    <br>
+    <p>View Raw Commits: <a href="https://github.com/cobraworld/cobraworld.github.io/commits/main/help">Here</a></p> 
+    <p>View Raw Src: <a href="https://github.com/cobraworld/cobraworld.github.io/blob/main/help/index.html">Here</a></p>
+<p><a href="https://discordbotlist.com/bots/841654115590733845"><img src="https://discordbotlist.com/api/v1/bots/841654115590733845/widget"></a></p>
+</body>
+</html>
